@@ -1,3 +1,10 @@
+// Universidad del Valle de Guatemala
+// Algoritmos y Estructuras de Datos
+// Gerardo Pineda, 22880
+// Fernando Echeverría, 22610
+
+
+// Esta clase fue tomada de referencia del libro Java Structures
 import java.util.Vector;
 
 public class VectorHeap<E extends Comparable<E>> implements PriorityQueue<E>

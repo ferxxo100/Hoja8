@@ -1,3 +1,9 @@
+// Universidad del Valle de Guatemala
+// Algoritmos y Estructuras de Datos
+// Gerardo Pineda, 22880
+// Fernando Echeverría, 22610
+
+// Esta interfaz fue tomada del libro Java Structures
 public interface PriorityQueue<E extends Comparable<E>>
 {
 	public E getFirst();
