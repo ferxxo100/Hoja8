@@ -1,7 +1,5 @@
-<<<<<<< HEAD:PriorityQueueController/VectorHeap.java
 package PriorityQueueController;
 
-=======
 // Universidad del Valle de Guatemala
 // Algoritmos y Estructuras de Datos
 // Gerardo Pineda, 22880
@@ -9,7 +7,6 @@ package PriorityQueueController;
 
 
 // Esta clase fue tomada de referencia del libro Java Structures
->>>>>>> b81bc4bc5e07649df112dfc4bf6a6ffd9bc0964e:VectorHeap.java
 import java.util.Vector;
 
 public class VectorHeap<E extends Comparable<E>> implements PriorityQueue<E>

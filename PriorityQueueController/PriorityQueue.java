@@ -1,14 +1,11 @@
-<<<<<<< HEAD:PriorityQueueController/PriorityQueue.java
 package PriorityQueueController;
 
-=======
 // Universidad del Valle de Guatemala
 // Algoritmos y Estructuras de Datos
 // Gerardo Pineda, 22880
 // Fernando Echeverría, 22610
 
 // Esta interfaz fue tomada del libro Java Structures
->>>>>>> b81bc4bc5e07649df112dfc4bf6a6ffd9bc0964e:PriorityQueue.java
 public interface PriorityQueue<E extends Comparable<E>>
 {
 	public E getFirst();
