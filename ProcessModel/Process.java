@@ -6,6 +6,11 @@ public class Process implements Comparable<Process>{
     Integer niceValue = 0;
     Integer priority;
 
+    /**
+     * @param processName
+     * @param userName
+     * @param niceValue
+     * Constructor de la clase, se necesita un nombre de proceso, seguido del usuario, valor de nice y la prioridad que es calculada con nice   */
     public Process(String processName, String userName,Integer niceValue){
         this.processName = processName;
         this.userName = userName;
@@ -13,6 +18,10 @@ public class Process implements Comparable<Process>{
         calcPriority(niceValue);
     }
 
+    /**
+     * @param niceValue
+     * Prioridad es 120 + el valor nice
+     */
     private void calcPriority(Integer niceValue){
         priority = 120+niceValue;
     }

@@ -5,6 +5,9 @@ import java.util.PriorityQueue;
 public class PriorityQueueJF<E extends Comparable<E>> implements PriorityQueueController.PriorityQueue<E> {
 
     protected PriorityQueue<E> data;
+    /**
+     * Constructor
+     */
     public PriorityQueueJF(){
         data = new PriorityQueue<E>();
     }

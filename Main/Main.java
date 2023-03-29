@@ -32,6 +32,10 @@ public class Main {
         }
     }
 
+    /**
+     * @param priorityQueue
+     * crea el vecto al leer el archivo 
+     */
     public static void createVector(PriorityQueue priorityQueue){
         FileReader ar;
         BufferedReader reader;
@@ -42,7 +46,7 @@ public class Main {
                 String line;
                 while ((line = reader.readLine()) != null) {
                     String[] data = line.split(",");
-                    priorityQueue.add(new Process(data[0],data[1],Integer.valueOf(data[2])));
+                    priorityQueue.add(new Process(data[0],data[1],Integer.valueOf(data[2])));// añade un nuevo proceso
                 }
             } else {
                 System.out.println("El archivo no se encuentra");
