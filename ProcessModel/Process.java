@@ -38,9 +38,9 @@ public class Process implements Comparable<Process>{
         return this.getPriority().compareTo(o.getPriority());
     }
 
-    public String toString(){
+    /*public String toString(){
         StringBuffer s = new StringBuffer();
         s.append("Process: "+getProcessName()+", "+getUserName()+", "+getNiceValue()+", PR = "+getPriority());
         return s.toString();
-    }
+    }*/
 }
